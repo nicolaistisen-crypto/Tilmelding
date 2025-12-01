@@ -1,0 +1,19 @@
+{
+  "name": "fredagsbar-backend-name-only",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.0.0",
+    "helmet": "^7.0.0",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0"
+  }
+}
